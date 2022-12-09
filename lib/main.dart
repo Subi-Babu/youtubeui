@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 import 'package:youtubeui/model/videos.dart';
 import 'package:youtubeui/ui/videocard.dart';
@@ -122,7 +120,7 @@ class  MyApp extends StatelessWidget{
            ),
            BottomNavigationBarItem(
             icon: Icon(Icons.add_circle_outline),
-           
+           label:"Add",
            ),
           BottomNavigationBarItem(
             icon: Icon(Icons.explore),
@@ -142,9 +140,6 @@ class  MyApp extends StatelessWidget{
 
 
      );
-     }
- 
-   
-  
+     }  
 
   }
